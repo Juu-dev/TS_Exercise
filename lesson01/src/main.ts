@@ -183,6 +183,7 @@ const total = (a: number, ...nums: number[]): number => {
 
 logMsg(total(10, 2, 3));
 
+// never: does not accept any value, including null and undifine
 const createError = (errMsg: string): never => {
     throw new Error(errMsg);
 };
